@@ -19,15 +19,15 @@ pod 'SDWebImage', :modular_headers => true
 pod 'FirebaseUI/Storage'
 pod 'SnapKit', '~> 5.0.0'
 pod 'NVActivityIndicatorView'
-pod 'RxSwift', '6.5.0'
-pod 'RxCocoa', '6.5.0'
+pod 'RxSwift'
+pod 'RxCocoa'
   # Pods for Chat
 
   target 'ChatTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'RxBlocking', '6.5.0'
-    pod 'RxTest', '6.5.0'
+    pod 'RxBlocking'
+    pod 'RxTest'
   end
 
   target 'ChatUITests' do
